@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=06b6d4&height=200&section=header&text=ArasPHP%20v1.0&fontSize=70&animation=fadeIn&fontAlignY=38"  alt="ArasPHP Banner"/>
+  <img src="https://i.hizliresim.com/9w6zcly.png"  alt="ArasPHP Banner"/>
 
   <h3>🚀 Future-Proof Cyberpunk Link Management System</h3>
 
