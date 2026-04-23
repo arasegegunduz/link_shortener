@@ -49,7 +49,7 @@ Sistemin her köşesi profesyonel güvenlik katmanlarıyla korunmaktadır:
 <div align="center">
   <br />
   <p><b>ArasPHP</b> ile bağlantılarını kontrol et.</p>
-  <a href="https://github.com/senin-kullanici-adin">
+  <a href="https://github.com/arasegegunduz">
     <img src="https://img.shields.io/badge/Follow_Me-000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </div>
