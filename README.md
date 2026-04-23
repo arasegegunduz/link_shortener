@@ -32,6 +32,8 @@ Sistemin her köşesi profesyonel güvenlik katmanlarıyla korunmaktadır:
 | **Pass-Lock** | Linklerinize özel şifre koyarak erişimi yönetin. |
 | **Analytics** | Tıklanma sayılarını canlı olarak takip edin. |
 | **XAMPP Fix** | Localhost üzerinde SSL hatası vermeyen cURL motoru. |
+| **Domain'e Geçir** | İndirdiğiniz dosyada Bulunan "ajax.php" içinde Bulunan "$site_url = "http://localhost/link-kisaltici/"; kısmını Kendi Domaininize Göre yapılandırın, define('SITE_URL', 'http://localhost/link-kisaltici/'); 
+burayıda Kendi Domaininizi Girin. |
 
 ### 🛠️ Teknolojiler
 <p align="left">
