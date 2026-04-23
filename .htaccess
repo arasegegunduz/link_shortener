@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# 1. Klasör veya dosya gerçekten varsa direkt aç (Engelleme)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 2. .php uzantısını gizleme (index yerine index.php çalışsın)
+RewriteCond %{DOCUMENT_ROOT}/%{REQUEST_URI}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# 3. Kısa linkleri redirect.php'ye yönlendirme (En önemlisi)
+RewriteRule ^([a-zA-Z0-9_-]+)$ redirect.php?code=$1 [L]
